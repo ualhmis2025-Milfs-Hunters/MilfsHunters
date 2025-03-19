@@ -1,7 +1,7 @@
 ---
-title: Writing a New Post
-author: cotes
-date: 2019-08-08 14:10:00 +0800
+title: Post de prueba
+author: Antonio ssss
+date: 2025-03-14
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
