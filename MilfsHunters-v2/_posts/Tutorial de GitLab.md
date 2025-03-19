@@ -8,11 +8,8 @@ tags: [GitLab, Tutorial]
 pin: true
 math: false
 mermaid: false
-image:
-  path: /ruta/a/imagen.png
-  lqip: data:image/webp;base64,....
-  alt: GitLab tutorial visual
 ---
+
 
 # 🚀 Mini Tutorial de GitLab
 
@@ -31,16 +28,34 @@ GitLab es una plataforma de DevOps que facilita el control de versiones, integra
 
 Para trabajar con el repositorio en tu máquina, utiliza el siguiente comando:
 
-```bash
+1. **git bash**
 git clone https://gitlab.com/usuario/nombre-del-repositorio.git
 
-Luego, navega a la carpeta del repositorio: cd nombre-del-repositorio
+2. Luego, navega a la carpeta del repositorio: cd nombre-del-repositorio
 
 ## 📝 3. Hacer Cambios y Subirlos
 
 - **Realiza cambios en los archivos** del repositorio.
 - **Añade los cambios al área de staging** con el siguiente comando:
 
-```bash
+**git bash**
 git add .
 
+1. Confirma los cambios con un mensaje descriptivo:
+**git commit** -m "Descripción del cambio"
+2. Sube los cambios al repositorio remoto para actualizarlo:
+git push origin main
+
+## 🔄 4. Crear una Rama y Fusionar
+
+1. **Crear una nueva rama con el siguiente comando:**
+git checkout -b nombre-de-la-rama
+
+2. **Subir la nueva rama al repositorio remoto:**
+git push origin nombre-de-la-rama
+
+3. Crear un Merge Request (MR) en GitLab:
+4. Ve a la pestaña "Merge Requests" en GitLab.
+5. Haz clic en "New Merge Request".
+6. Selecciona las ramas origen y destino (por ejemplo, main o la rama correspondiente).
+7. Haz clic en "Create merge request" para completar el proceso.
