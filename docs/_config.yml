@@ -204,6 +204,7 @@ compress_html:
 
 
 exclude:
+  - docs
   - "*.gem"
   - "*.gemspec"
   - tools
