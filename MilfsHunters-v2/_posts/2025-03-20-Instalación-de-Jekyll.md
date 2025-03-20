@@ -1,6 +1,6 @@
 ---
 title: Instalación de Jekyll
-author: Antonio 
+author: anm020
 date: 2025-03-20
 categories: [Tutorial]
 tags: [writing]
