@@ -1,7 +1,7 @@
 ---
 title: Mini Tutorial de GitLab
 description: Aprende a usar GitLab para crear repositorios, colaborar y gestionar tus proyectos.
-author: Alejandro Avilés Fernández
+author: aaf925
 date: 2025-03-19
 categories: [Git, Desarrollo]
 tags: [GitLab, Tutorial]
