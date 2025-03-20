@@ -1,0 +1,19 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+aaf925:
+  name: Alejandro Avilés Fernández
+  url: https://github.com/aaf925/
+
+anm020:
+  name: Antonio Rafael Nieto Mora
+  url: https://github.com/anm0200/
+
+jgm847:
+  name: Jorge González Muñoz
+  url: https://github.com/jgm847/
